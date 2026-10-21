@@ -6,29 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "deploy": "webflow cloud deploy",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
-    "next": "^15.2.8",
-    "react": "^19.0.1",
-    "react-dom": "^19.0.0"
+    "next": "^16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250415.0",
-    "@eslint/eslintrc": "^3",
-    "@opennextjs/cloudflare": "^1.6.5",
+    "@cloudflare/workers-types": "^5.20261019.1",
+    "@opennextjs/cloudflare": "^1.19.10",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "^15.2.8",
+    "eslint-config-next": "16.2.1",
     "postcss-import": "^16.1.0",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "wrangler": "^4.11.1"
+    "wrangler": "^4.86.0"
   }
 }
